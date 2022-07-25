@@ -1,0 +1,29 @@
+.row {
+    padding: 20px;
+    height: 450px;
+    background-image: linear-gradient(to bottom, rgb(49, 187, 236), rgb(132, 172, 236));
+  }
+  h1,
+  h3 {
+    display: inline;
+  }
+  ul li::marker {
+    background-color: rgb(132, 172, 236);
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+  }
+  body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgb(132, 172, 236);
+  }
